@@ -1,0 +1,3 @@
+I walked to the left edge of "The Stream."
+I walked to the left of "The Stream."
+I went to the left edge of "The Stream."

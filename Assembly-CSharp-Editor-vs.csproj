@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6C9F4EF4-38C5-0077-B8C1-008C048520F4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_AboutBox.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_AddonBrowser.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_UFPSMenu.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_UpdateDialog.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_ComponentPersister.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EditorGUIUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EventDumpWindow.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPCameraEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPControllerEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPPlayerEventHandlerEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponMeleeAttackEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponShooterEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FileDialog.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_InputEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_InputWindow.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_MessageBox.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_PresetEditorGUIUtility.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_ShooterEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_TimerEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_UFPSInfo.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_FootstepManagerEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_MovingPlatformEditor.cs" />
+     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_SurfaceIdentifierEditor.cs" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl2.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl7.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawlDoor.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\nearendtrain.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\streamstare.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\streamwall.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaypasstip.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl10.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamDoorway.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl9.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\sidestreamR.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\edge.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\hallway2.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\doorway2.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\Resources\Dialogues\lonesomestreamwatcher.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\wrongtrainway.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\streamloner.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\edgeguyjump.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaydoitfgt.txt" />
+     <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\BasicArmsReadMe.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\traincar2.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\endtrain.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\wrongway.txt" />
+     <None Include="Assets\Models\Materials\Shaders\Glass.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolSlideFast.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamLoner.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamMain.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\sidestreamL.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaywarning3.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\doorway1.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\corner.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\endtrainguyT.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCorner.txt" />
+     <None Include="Assets\Models\Materials\Shaders\3D Text Shader.shader" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl6.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\doit.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaywarning2.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\tinymazeR.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\hallway1.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaywarning.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\mlgeffectswordarraycrazy.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\streammain.txt" />
+     <None Include="Assets\Resources\Dialogues\edgefigure.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
+     <None Include="Assets\Resources\Dialogues\lasttraincar.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl11.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl4.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\traincar1.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\walkway1.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\streamglass.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamHallway1.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\highwaymadeit.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl3.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunSlideFast.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamDoorway2.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl8.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\edgeguy.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl1.txt" />
+     <None Include="Assets\Resources\Messages\BeforeStare\traincar3.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverSlideFast.txt" />
+     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamCrawl5.txt" />
+     <None Include="Assets\Resources\Messages\AfterStare\afterStreamWall.txt" />
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{F5A85F48-9505-DF60-2D64-CC6C253BD220}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

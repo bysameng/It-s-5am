@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../SyberPlunk/Assets/Scripts/Effects/ObjectSpecific/Readable.cs">
+    <Files>
+      <File FileName="../SyberPlunk/Assets/Scripts/Effects/ObjectSpecific/Readable.cs" Line="1" Column="1" />
+      <File FileName="../SyberPlunk/Assets/Scripts/Effects/ObjectSpecific/Readable.cs" Line="33" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
